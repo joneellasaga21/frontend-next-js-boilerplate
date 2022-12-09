@@ -13,7 +13,8 @@
     "start": "next start",
     "lint": "next lint",
     "turbo": "next dev --turbo",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "18.11.12",
@@ -27,6 +28,7 @@
     "typescript": "4.9.4"
   },
   "devDependencies": {
+    "husky": "^8.0.2",
     "prettier": "^2.8.1"
   }
 }
