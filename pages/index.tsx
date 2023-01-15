@@ -11,6 +11,7 @@ const Home: NextPageWithLayout = () => {
       <h1 className={styles.title}>
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
+      <h2>Coming Soon!</h2>
       <PrimaryBtn {...mockPrimaryBtnProps.base} />
     </section>
   )
