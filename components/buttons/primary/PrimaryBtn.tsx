@@ -5,7 +5,11 @@ export interface IPrimaryBtn {
 }
 
 const PrimaryBtn: React.FC<IPrimaryBtn> = ({ sampleTextProp }) => {
-  return <button className={styles.btn_primary}>{sampleTextProp}</button>
+  return (
+    <button className="bg-gradient-to-r from-cyan-500 to-blue-500 text-white">
+      {sampleTextProp}
+    </button>
+  )
 }
 
 export default PrimaryBtn
