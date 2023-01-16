@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from './PrimaryLayout.module.css'
 
 export interface IPrimaryLayout {
   children: any
@@ -11,7 +10,7 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
       <Head>
         <title>Primary Layout Example</title>
       </Head>
-      <main className={styles.main}>{children}</main>
+      <main className="text-white">{children}</main>
     </>
   )
 }

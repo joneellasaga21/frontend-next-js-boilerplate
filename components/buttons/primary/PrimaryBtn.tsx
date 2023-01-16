@@ -1,5 +1,3 @@
-import styles from './PrimaryBtn.module.css'
-
 export interface IPrimaryBtn {
   sampleTextProp: string
 }
