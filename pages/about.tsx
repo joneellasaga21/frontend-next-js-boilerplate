@@ -4,8 +4,8 @@ import { NextPageWithLayout } from './page'
 
 const About: NextPageWithLayout = () => {
   return (
-    <section>
-      <h2>Layout Example (About)</h2>
+    <div className="bg-gradient-to-r from-cyan-500 to-blue-500">
+      <h2 className="underline text-blue-600">Layout Example (About)</h2>
       <p>
         This example adds a property <code>getLayout</code> to your page,
         allowing you to return a React component for the layout. This allows you
@@ -29,7 +29,7 @@ const About: NextPageWithLayout = () => {
         <code>Sidebar</code> and then changing routes. You&apos;ll notice the
         input state is persisted.
       </p>
-    </section>
+    </div>
   )
 }
 
