@@ -10,7 +10,7 @@ const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
       <Head>
         <title>Primary Layout Example</title>
       </Head>
-      <main className="text-white">{children}</main>
+      <main className="text-black">{children}</main>
     </>
   )
 }
